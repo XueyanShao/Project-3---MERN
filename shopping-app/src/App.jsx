@@ -10,6 +10,9 @@ import {
   Route,
   Redirect
 } from "react-router-dom";
+import Success from "./pages/Success";
+import Pay from "./components/Pay";
+import { useSelector } from "react-redux";
 
 const App = () => {
   const user = true
@@ -27,6 +30,12 @@ const App = () => {
         </Route>
         <Route path="/cart">
           <Cart />
+        </Route>
+        <Route path="/success">
+          <Success />
+        </Route>
+        <Route path="/pay">
+          <Pay />
         </Route>
         <Route path="/login">
           {user ? <Redirect to="/" /> : <Login />}
