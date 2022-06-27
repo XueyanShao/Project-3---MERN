@@ -88,23 +88,21 @@ const Footer = () => {
   return (
     <Container>
       <Left>
-        <Logo>LAMA.</Logo>
+        <Logo>Air Jordan Archive</Logo>
         <Desc>
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised words which don’t look even slightly believable.
+          The Air Jordan series has come a long way since it originally released as a Nike Basketball shoe. On the way to the top, it transcended the shoe industry as well as the game itself. The company continues to keep old fans, all the while drawing in new ones. The combination of their new releases and retroing of classic colorways from the AJ numbered series has created a formula for success that is unmatched.
         </Desc>
         <SocialContainer>
-          <SocialIcon color="3B5999">
+          <SocialIcon color="000">
             <Facebook />
           </SocialIcon>
-          <SocialIcon color="E4405F">
+          <SocialIcon color="000">
             <Instagram />
           </SocialIcon>
-          <SocialIcon color="55ACEE">
+          <SocialIcon color="000">
             <Twitter />
           </SocialIcon>
-          <SocialIcon color="E60023">
+          <SocialIcon color="000">
             <Pinterest />
           </SocialIcon>
         </SocialContainer>
@@ -120,20 +118,20 @@ const Footer = () => {
           <ListItem>My Account</ListItem>
           <ListItem>Order Tracking</ListItem>
           <ListItem>Wishlist</ListItem>
-          <ListItem>Wishlist</ListItem>
+          <ListItem>News</ListItem>
           <ListItem>Terms</ListItem>
         </List>
       </Center>
       <Right>
         <Title>Contact</Title>
         <ContactItem>
-          <Room style={{marginRight:"10px"}}/> 622 Dixie Path , South Tobinchester 98336
+          <Room style={{marginRight:"10px"}}/> 17877 Von Karman Ave 4th floor, Irvine, CA 92614
         </ContactItem>
         <ContactItem>
           <Phone style={{marginRight:"10px"}}/> +1 234 56 78
         </ContactItem>
         <ContactItem>
-          <MailOutline style={{marginRight:"10px"}} /> contact@lama.dev
+          <MailOutline style={{marginRight:"10px"}} /> contact@AJArchive.com
         </ContactItem>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>

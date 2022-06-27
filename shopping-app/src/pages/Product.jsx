@@ -5,18 +5,13 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
 import { mobile } from "../responsive";
-import { useLocation } from "react-router-dom";
-import { useEffect, useState } from "react";
-// import { publicRequest } from "../requestMethods";
-// import { addProduct } from "../redux/cartRedux";
-import { useDispatch } from "react-redux";
 
 const Container = styled.div``;
 
 const Wrapper = styled.div`
   padding: 50px;
   display: flex;
-  ${mobile({ padding: "10px", flexDirection: "column" })}
+  ${mobile({ padding: "10px", flexDirection:"column" })}
 `;
 
 const ImgContainer = styled.div`
@@ -114,44 +109,13 @@ const Button = styled.button`
   background-color: white;
   cursor: pointer;
   font-weight: 500;
-  &:hover {
-    background-color: #f8f4f4;
+
+  &:hover{
+      background-color: #f8f4f4;
   }
 `;
 
-
-const Product = ({cat, filters, sort}) => {
-  const location = useLocation();
-  const id = location.pathname.split("/")[2];
-  const [product, setProduct] = useState({});
-  const [quantity, setQuantity] = useState(1);
-  const [color, setColor] = useState("");
-  const [size, setSize] = useState("");
-  const dispatch = useDispatch();
-
-  // useEffect(() => {
-  //   const getProduct = async () => {
-  //     try {
-  //       const res = await publicRequest.get("/products/find/" + id);
-  //       setProduct(res.data);
-  //     } catch {}
-  //   };
-  //   getProduct();
-  // }, [id]);
-
-  // const handleQuantity = (type) => {
-  //   if (type === "dec") {
-  //     quantity > 1 && setQuantity(quantity - 1);
-  //   } else {
-  //     setQuantity(quantity + 1);
-  //   }
-  // };
-
-  // const handleClick = () => {
-  //   dispatch(
-  //     addProduct({ ...product, quantity, color, size })
-  //   );
-  // };
+const Product = () => {
   return (
     <Container>
       <Navbar />

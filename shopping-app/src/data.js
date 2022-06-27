@@ -1,79 +1,87 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://i.ibb.co/XsdmR2c/1.png",
+      img: "https://cdn.shopify.com/s/files/1/0408/9909/files/Most_Influential_Dunks_-_SB_Dunk_-_Feature_LV_-_6_0432615f-76f0-4956-b439-5153b825064d_480x480.jpg?v=1629477496",
       title: "SUMMER SALE",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+      desc: "‘UGLY DUCKLING PACK’ 2001 ",
       bg: "f5fafd",
     },
     {
       id: 2,
-      img: "https://i.ibb.co/DG69bQ4/2.png",
-      title: "AUTUMN COLLECTION",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+      img: "https://cdn.shopify.com/s/files/1/0408/9909/articles/Nike_-_Union_Cortez_-_Sesame-Pink_Clay-Dutch_Green_-_Feature.jpg?v=1656100209",
+      title: "NIKE CORTEZ X UNION",
+      desc: "FEATURE Release - Tuesday, June 28th",
       bg: "fcf1ed",
     },
     {
       id: 3,
-      img: "https://i.ibb.co/cXFnLLV/3.png",
-      title: "LOUNGEWEAR LOVE",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "fbf0f4",
+      img: "https://cdn.shopify.com/s/files/1/0408/9909/articles/Air-Jordan-1-White-University-Red-Black---555088-161----Feature---05-22-22---02.jpg?v=1653332417",
+      title: "AIR JORDAN 1 'HERITAGE'",
+      desc: " FEATURE Release Wednesday, May 25th",
+      bg: "f5fafd",
     },
   ];
 
   export const categories = [
     {
       id: 1,
-      img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "SHIRT STYLE!",
-      cat:"women"
+      img: "https://sneakernews.com/wp-content/uploads/2015/06/air-jordan-2-air-jordan-12-poster-collection-1.jpeg?w=780&h=550&crop=1",
+      title: "JUST IN",
+      cat:"justin"
     },
     {
       id: 2,
-      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "LOUNGEWEAR LOVE",
-      cat:"coat"
+      img: "https://images.lifestyleasia.com/wp-content/uploads/sites/6/2021/12/01154826/Iconic-Nike-x-Off-White-sneakers-by-Virgil-Abloh-806x537.jpeg",
+      title: "FEATURED",
+      cat:"featured"
     },
     {
       id: 3,
-      img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      title: "LIGHT JACKETS",
-      cat:"jeans"
+      img: "https://media.bleacherreport.com/f_auto,w_630,h_420,q_auto,c_fill/br-img-images/003/374/645/54a9c1fc59d0cf50a87be35c4d1e6644_crop_north.png",
+      title: "ARCHIVE",
+      cat:"archive"
     },
   ];
 
   export const popularProducts = [
     {
       id:1,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+      img:"https://manofmany.com/wp-content/uploads/2020/05/jordan-1-og-chicago-1985-.png",
     },
     {
       id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      img:"https://manofmany.com/wp-content/uploads/2020/05/jordan-5-retro-fire-red-silver-tongue-2020-.png",
     },
     {
       id:3,
-      img:"https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+      img:"https://manofmany.com/wp-content/uploads/2020/05/jordan-4-retro-bred-2019-.png",
     },
     {
       id:4,
-      img:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+      img:"https://manofmany.com/wp-content/uploads/2020/05/jordan-11-retro-concord-2018-.png",
     },
     {
       id:5,
-      img:"https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
+      img:"https://manofmany.com/wp-content/uploads/2020/05/jordan-6-retro-black-infrared-2019-.png",
     },
     {
       id:6,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
+      img:"https://manofmany.com/wp-content/uploads/2020/05/jordan-1-retro-high-pine-green.png",
     },
     {
       id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+      img:"https://manofmany.com/wp-content/uploads/2020/05/jordan-3-retro-unc-2020-.png",
     },
     {
       id:8,
-      img:"https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
+      img:"https://manofmany.com/wp-content/uploads/2020/05/jordan-1-retro-high-shadow-2018-.png",
+    },
+     {
+      id:9,
+      img:"https://manofmany.com/wp-content/uploads/2020/05/jordan-1-retro-shattered-backboard.png",
+    },
+     {
+      id:10,
+      img:"https://manofmany.com/wp-content/uploads/2020/05/jordan-4-retro-black-cat-2020-.png",
     },
   ]
